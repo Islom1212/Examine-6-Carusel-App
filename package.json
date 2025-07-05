@@ -1,0 +1,25 @@
+{
+  "name": "homeworks",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run index.html"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  },
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "dom",
+      "es6"
+    ]
+  }
+}
